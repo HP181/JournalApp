@@ -25,6 +25,7 @@ public class UserEntry {
     private ObjectId id;
 
     @Indexed(unique = true)
+    @NonNull
     private String username;
 
     private String email;
